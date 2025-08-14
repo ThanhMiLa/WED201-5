@@ -1,0 +1,113 @@
+.container-fluid {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.row {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+/* Header */
+.logo {
+    text-align: center;
+    margin: 5px;
+}
+
+.logo img {
+    width: 15%;
+}
+
+/* Menu */
+.menu ul {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+/* Section - 1*/
+.section-1 {
+    margin-bottom: 2%;
+}
+
+.section-1 h2 {
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    color: #0ec0c3;
+}
+
+/* Section - 2*/
+.section-2 {
+    margin-bottom: 2%;
+}
+
+.section-2 .content-middle h2 {
+    margin-top: 0px;
+    color: #0ec0c3;
+    text-align: center;
+}
+
+.section-2 .content-right {
+    margin-top: 7%;
+}
+
+.section-2 .content-right h4 {
+    color: orange;
+    text-align: center;
+}
+
+.section-2 .content-right p {
+    background-color: #0ec0c3;
+    text-align: center;
+    width: 40%;
+    padding: 2%;
+    color: white;
+    margin: 0px auto;
+}
+
+/* Section - 3*/
+.section-3 {
+    margin-bottom: 2%;
+}
+
+.section-3 h2 {
+    margin-top: 0px;
+    color: #0ec0c3;
+    text-align: center;
+}
+
+.section-3 button {
+    background-color: orange;
+    color: white;
+}
+
+/* Footer */
+.footer {
+    background-color: #0ec0c4;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+/* Mobile */
+@media screen and (max-width: 768px) {
+    .logo img {
+        width: 50%;
+    }
+
+    .section-1 h2 {
+        padding: 5px;
+    }
+
+    .section-1 .item {
+        margin-bottom: 5%;
+    }
+
+    .section-2 .content-middle h2,
+    .section-3 .content-left,
+    .section-3 .content-middle {
+        margin-top: 5%;
+    }
+
+}
